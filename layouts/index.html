@@ -1,6 +1,6 @@
 {{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
-	<h1>{{ .Title }}</h1>
+	{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 	{{ .Content }}
 {{ end }}
 {{ define "footer" }}{{ partial "footer.html" . }}{{ end }}
