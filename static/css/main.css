@@ -24,9 +24,6 @@ h1, h2, h3, h4, h5, h6 {
 	body {
 		background-color: #fafafa;
 	}
-	pre, code, kbd, samp {
-		font-size: 18px;
-	}
 	:link {
 		text-decoration: none;
 	}
@@ -74,6 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 35em) {
 	body {
 		font-size: 19px;
+	}
+	pre, code, kbd, samp {
+		font-size: 18px;
 	}
 }
 @media print {
