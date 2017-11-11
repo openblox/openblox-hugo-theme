@@ -35,9 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	header {
 		background-color: #373737;
-		border-bottom-color: #2e2e2e;
-		border-bottom-style: solid;
-		border-bottom-width: thin;
 	}
 	header > nav {
 		margin: auto;
