@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a href="/"><img alt="The OpenBlox logo" src="/logo.svg"></a></li>
+		<li><a href="{{ if eq .Site.BaseURL "https://openblox.org/" }}/{{else}}https://openblox.org{{ end }}"><img alt="The OpenBlox logo" src="/logo.svg"></a></li>
 		{{ range .Site.Menus.main }}
 		<li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
 		{{ end }}
